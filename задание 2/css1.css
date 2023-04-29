@@ -1,0 +1,86 @@
+body{
+	margin-left: 100px;
+}
+#playground {
+	position: relative;	
+	width: 1000px;
+	height: 500px;
+	outline: 2px solid #000;
+}
+#stop {
+	width: 200px;
+	height: 50px;
+	margin-left: 360px;	
+}
+.player {
+	height: 250px;
+	width: 1000px;
+}
+.text{
+	padding-top: 50%;
+}
+.name {
+	position: fixed;
+	text-align: center;
+	height: 250px;
+	outline: 2px solid #000;
+	width: 200px;
+}
+.city {
+	
+	margin-left: 200px;
+	text-align: center;
+	height: 250px;
+	outline: 2px solid #000;
+	width: 200px;
+	position: fixed;
+}
+
+.river {
+	position: fixed;
+	margin-left: 400px;
+	text-align: center;
+	height: 250px;
+	outline: 2px solid #000;
+	width: 200px;
+}
+.animal{
+	position: fixed;
+	margin-left: 600px;
+	text-align: center;
+	height: 250px;
+	outline: 2px solid #000;
+	width: 200px;
+}
+.points {
+	position: fixed;
+	margin-left: 800px;
+	text-align: center;
+	height: 250px;
+	outline: 2px solid #000;
+	width: 200px;	
+}
+#player2 .city{
+	margin-top: 250px;
+}
+#player2 .river{
+	margin-top: 250px;
+}
+#player2 .animal{
+	margin-top: 250px;
+}
+#player2 .points{
+	margin-top: 250px;
+}
+#player2 .name{
+	margin-top: 250px;
+}
+input{
+	margin-top: 35%;
+}
+#player2 p {
+	margin-top: 10%;
+}
+#letter {
+	margin-left: 450px;
+}

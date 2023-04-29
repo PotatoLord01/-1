@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	
+	<title>game</title>
+</head>
+<body>
+	<div id="letter"><h1 id="test"></h1></div>
+	<button id="stop" onclick = "stop=1;Game(i)">STOP</button>
+	<h2 style="position: absolute;">Имя</h2>
+	<h2 style="margin-left: 220px; position: absolute;">Город</h2>
+	<h2 style="margin-left: 420px; position: absolute;">Река</h2>
+	<h2 style="margin-left: 620px; position: relative;">Животное</h2>
+<div id="playground">
+	<div class="palyer" id="player1">
+		<div class="name">
+			<p id="textname"></p>
+		</div>
+		<div class="city">
+			<p id="textcity"></p>
+		</div>
+		<div class="river">
+			<p id="textriver"></p>
+		</div>
+		<div class="animal">
+			<p id="textanimal"></p>
+		</div>
+		<div class="points">
+			<p>Очки<br><br><br><br><br></p>
+			<p id="compscore"></p>
+		</div>
+		
+	</div>
+	<div class="palyer" id="player2">
+		<div class="name" >
+			<input id="inp" type="text" name="name" onchange="checker(this.value)">
+			<p id="ansname"></p>
+		</div>
+		<div class="city" id="city">
+			<input id="inp1" type="text" name="name"onchange="checker(this.value)">
+			<p id="anscity"></p>
+		</div>
+		<div class="river" id="river">
+			<input id="inp2" type="text" name="name" onchange="checker(this.value)">
+			<p id="ansriver"></p>
+		</div>
+		<div class="animal" id="animal">
+			<input id="inp3" type="text" name="name" onchange="checker(this.value)">
+			<p id="ansanimal"></p>
+		</div>
+		<div class="points">
+					<p>Очки<br><br><br><br><br></p>
+					<p id="playscore"></p>
+		</div>
+		
+	</div>
+</div>
+<script type="text/javascript" src="js1.js"></script>
+</body>
+</html>
